@@ -44,9 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogDAL\LogDatabaseTypeEnum.cs" />
     <Compile Include="Logger\CustomLogger.cs" />
     <Compile Include="LogDAL\WindowsEventLog.cs" />
-    <Compile Include="LogDAL\Idal.cs" />
+    <Compile Include="LogDAL\LogDalBase.cs" />
     <Compile Include="LogDAL\SqlServer.cs" />
     <Compile Include="LogEntryType\LogEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

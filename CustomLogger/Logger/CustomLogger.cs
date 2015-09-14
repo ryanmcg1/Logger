@@ -9,13 +9,6 @@ using CustomLogger.Validation;
 
 namespace CustomLogger
 {
-
-    public enum LogDatabaseTypes
-    {
-        SqlServer,
-        WindowsEventLog,
-        Oracle
-    }
     public class Logger
     {
         private LogDalBase _dal;
